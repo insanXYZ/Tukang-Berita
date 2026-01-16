@@ -50,7 +50,7 @@ $result = mysqli_query($koneksi, $query);
               <td><?= $no++; ?></td>
 
               <td>
-                <img src="../uploads/<?= htmlspecialchars($row['thumbnail']); ?>" width="80" class="rounded">
+                <img src="../../uploads/<?= htmlspecialchars($row['thumbnail']); ?>" width="80" class="rounded">
               </td>
 
               <td><?= htmlspecialchars($row['title']); ?></td>
