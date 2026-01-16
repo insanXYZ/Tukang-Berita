@@ -84,7 +84,7 @@ if (!isset($_SESSION['is_admin']) OR !$_SESSION["is_admin"]) {
           <ul class="nav sidebar-menu flex-column" data-lte-toggle="treeview" role="navigation"
             aria-label="Main navigation" data-accordion="false" id="navigation">
             <li class="nav-item">
-              <a href="index.php" class="nav-link">
+              <a href="/TUkang-Berita/admin/index.php" class="nav-link">
                 <i class="nav-icon bi bi-speedometer"></i>
                 <p>Dashboard</p>
               </a>
