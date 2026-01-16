@@ -1,0 +1,10 @@
+CREATE TABLE news (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(50) NOT NULL,
+    category_id INT NOT NULL,
+    thumbnail VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL,
+    views INT NOT NULL DEFAULT 0,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (category_id) REFERENCES categories (id) ON DELETE CASCADE
+);
